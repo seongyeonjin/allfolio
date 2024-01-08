@@ -1,4 +1,4 @@
-import { HashRouter as Router,  Routes,  Route  } from "react-router-dom";
+import { BrowserRouter,  Routes,  Route  } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./Pages/Home/Home";
 import Career from "./Pages/Career/Career";
@@ -21,7 +21,7 @@ import Withdrawal from "./components/profile/Withdrawal";
 const App = () => {
   return (
     <>
-    <Router>
+    <BrowserRouter>
       <GlobalStyle />
       <Routes>
           <Route path="/" element={<Layout />} >
@@ -47,7 +47,7 @@ const App = () => {
             </Route>
           </Route>
       </Routes>
-    </Router>
+    </BrowserRouter>
       {/* <Home /> */}
       {/* <HomePopup/> / */}
     </>
