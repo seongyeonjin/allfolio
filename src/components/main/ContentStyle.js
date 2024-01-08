@@ -48,10 +48,8 @@ export const UpdatePort = styled.section`
             ul { display: flex; flex-wrap: wrap; justify-content: space-between;
                 li {width: 23%; margin-bottom: 20px; margin-right: 37px;
                 &:nth-child(4n) { margin-right: 0; }
-                    a {
-                        img { 
-                            width: 100%; border-radius: 10px;  height: 200px;
-                        }
+                    img { 
+                        width: 100%; border-radius: 10px;  height: 200px;
                     }
                     span {
                         &.cateName { display: inline-block;

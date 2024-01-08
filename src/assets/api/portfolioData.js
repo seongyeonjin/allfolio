@@ -4,8 +4,8 @@ export const portfolioData= [
         category: '프론트개발',
         name: '김기현', 
         title: '프론트개발 4년차입니다.', 
-        tumImg: '/images/project/projectImg1.png', 
-        proImg: '/images/project/projectImg1.png',
+        tumImg: './images/project/projectImg1.png', 
+        proImg: './images/project/projectImg1.png',
         detailImg: '',
         likes: '150',
         date: '2023-04-16'
@@ -189,11 +189,11 @@ export const mypageTabMenu = [
 ]
 
 export const thumbnailImages = [
-    {id:1, url:'/images/project/projectImg1.png'},
-    {id:2, url:'/images/project/projectImg2.png'},
-    {id:3, url:'/images/project/projectImg3.png'},
-    {id:4, url:'/images/project/projectImg4.png'},
-    {id:5, url:'/images/project/projectImg5.png'},
-    {id:6, url:'/images/project/projectImg6.png'},
+    {id:1, url:'./images/project/projectImg1.png'},
+    {id:2, url:'./images/project/projectImg2.png'},
+    {id:3, url:'./images/project/projectImg3.png'},
+    {id:4, url:'./images/project/projectImg4.png'},
+    {id:5, url:'./images/project/projectImg5.png'},
+    {id:6, url:'./images/project/projectImg6.png'},
 
 ]

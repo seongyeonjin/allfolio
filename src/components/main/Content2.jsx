@@ -23,10 +23,10 @@ const Content2 = () => {
                 <h2 className="tit">최신 포트폴리오는 올폴리오에서!</h2>
                 <div className="curPort">
                     <ul>
-                        {/* {  
+                        {  
                             !loading && !loading1 && sortData
                             .map((item, idx) => idx < 4 && <GalleryItem key={item.id} item ={item}  />) 
-                        } */}
+                        }
                     </ul>
                 </div>
             </div>

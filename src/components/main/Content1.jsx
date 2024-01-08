@@ -29,12 +29,12 @@ const Content1 = () => {
                 <Category/>
                 <div className="mainPort">
                     <ul>
-                        {/* {
-                           !loading && !loading1 &&  portfolioData.map(item => <GalleryItem key={item.id} item ={item}  />)                        
-                        } */}
                         {
-                            portfolioData.map(item => <Conbox1 key={item.id} item={item} />)
+                           !loading && !loading1 &&  portfolioData.map(item => <GalleryItem key={item.id} item ={item}  />)                        
                         }
+                        {/* {
+                            portfolioData.map(item => <Conbox1 key={item.id} item={item} />)
+                        } */}
                     </ul>
                 </div>
             </div>
